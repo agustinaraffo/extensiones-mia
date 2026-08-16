@@ -1,0 +1,20 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+:root {
+  --cream: #f9f5f0;
+  --white: #ffffff;
+  --pink: #e8b4c6;
+  --pink-light: #f5dde8;
+  --pink-dark: #c8859a;
+  --charcoal: #1e1e1e;
+  --muted: #7a7a7a;
+  --line: rgba(0,0,0,0.08);
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  background: var(--cream);
+  color: var(--charcoal);
+  overflow-x: hidden;
+}
